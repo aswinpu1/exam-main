@@ -106,7 +106,7 @@ function App() {
           onChange={(e) => setUserData({ ...userData, phoneNumber: e.target.value })}
           style={styles.input}
         />
-        <button type="submit" style={styles.button}>Sign Up</button>
+        <button  type="submit" style={styles.button}>Sign Up</button>
       </form>
 
       <h2 style={styles.header}>User Login</h2>
@@ -171,7 +171,7 @@ const styles = {
     padding: '20px',
     fontFamily: 'Arial, sans-serif',
     textAlign: 'center',
-    backgroundColor: '#f7f7f7',
+    backgroundColor: 'white',
     borderRadius: '8px',
   },
   header: {
@@ -191,8 +191,8 @@ const styles = {
     padding: '10px',
     borderRadius: '4px',
     border: 'none',
-    backgroundColor: '#007BFF',
-    color: '#fff',
+    backgroundColor: 'black',
+    color: 'yellow',
     cursor: 'pointer',
     marginTop: '10px',
   },
